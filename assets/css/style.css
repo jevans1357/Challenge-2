@@ -73,7 +73,6 @@
     color: white;
  }
 
-
  /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -143,10 +142,10 @@
   margin: 0 auto 35px auto;
   width: 50%;
   min-width: 337px;
-  }
+  font-style: italic;
+}
 
 .projects {
-  
   display: flex; 
   align-items: flex-start;
   background-color: var(--background-color);
@@ -231,7 +230,6 @@
 
 .contact-me {
     background: var(--background-color);
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -246,7 +244,6 @@
   }
 
   .contact-me-links {
-    width: 75%;
     height: 150px;
     text-align: left;
     margin: 10px;
@@ -302,4 +299,8 @@
 .project-grid-container {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
+}
+
+.projects {
+    flex-wrap: wrap;
 }
