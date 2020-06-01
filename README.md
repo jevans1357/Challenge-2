@@ -14,3 +14,6 @@ Project is created with:
 ## Links
 <https://jevans1357.github.io/Challenge-2/>
 <https://github.com/jevans1357/Challenge-2>
+
+## Screenshots
+./assets/images/screen-shots
